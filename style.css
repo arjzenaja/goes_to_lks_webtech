@@ -1,0 +1,53 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: auto;
+  flex-grow: 1;
+  height: 80vh;
+  font-size: 2rem;
+}
+.day {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.today {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+}
+
+.month-nav {
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.month-nav button {
+  color: white;
+  background-color: brown;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.bulan{
+  font-size: 3rem;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.tahun {
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: normal;
+  line-height: 2px;
+}
+
+.bulantahun {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
